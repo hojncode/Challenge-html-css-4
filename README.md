@@ -1,6 +1,6 @@
 # Challenge-html-css-4
 
-<img src="image.png">
+<img src="./consequence.png">
 
 ## Use
 - BEM
