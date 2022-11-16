@@ -1,0 +1,147 @@
+body {
+    box-sizing: border-box;
+    border: 10px solid #01C7AD;
+    width: 400px;
+    padding: 30px;
+}
+
+.status-bar {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    height: 30px;
+    font-size: 25px;
+}
+
+.status-bar__column:last-child {
+    margin: 0 auto;
+    font-weight: 700;
+}
+
+.content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.content__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEBD11;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 130px;
+    height: 130px;
+    margin: 0;
+}
+
+.content__title {
+    display: block;
+    flex-direction: row;
+    font-size: 40px;
+    line-height: 100%;
+    font-weight: bolder;
+    margin-left: 20px;
+    width: 160px;
+    
+    
+    
+}
+
+.content__title--by {
+    font-size: 15px;
+}
+
+.btn {
+    margin-top: 30px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn__play {
+    cursor: pointer;
+    font-size: 25px;
+    width:180px;
+    height: 60px;
+    border: 2px solid black;
+    border-bottom: 5px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.btn__heart {
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    border-bottom: 5px solid black;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.btn__plus {
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    border-bottom: 5px solid black;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.lists {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.lists:nth-child(1) .lists__color-box {
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.lists:nth-child(2) .lists__color-box {
+    background-color: #FE88BB;
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.lists:nth-child(3) .lists__color-box {
+    background-color: #1847E5;
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.lists:nth-child(4) .lists__color-box {
+    background-color: #01C7AD;
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.lists__info {
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.lists__info__producer {
+    font-size: 15px;
+    font-weight: 400;
+    color: grey;
+}
+
